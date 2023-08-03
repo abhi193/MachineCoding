@@ -1,0 +1,21 @@
+[This was asked by Zeta for an SDE2 role]
+You have to design a board game:
+
+Input:
+1. No of players
+2. No of Cells
+3. No of moves (for each player)
+4. Cell Seq Array (Max Size - 50)
+Eg: [N,N,J,H,T,J,H,N,N,N,N]
+
+Type of cells and points -
+NORMAL - +5
+JAIL - -20
+HOTEL - -10
+TREASURE - +50
+
+Each player will roll a dice once and play his turn and points will be added to his score on the basis of the cell he lands on.
+Players will move in cyclic manner if they exhaust the number of cells available
+
+Output :
+Player ___ has won with score ___
